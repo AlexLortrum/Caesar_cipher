@@ -1,4 +1,5 @@
 #include <string.h>
+#include <caesar_cipher.h>
 
 void encrypt(char* message, int key)
 {
@@ -29,3 +30,4 @@ void decrypt(char *message, int key)
         message[i] = offset;
     }
 }
+
